@@ -19,7 +19,8 @@
     <?php
         include("Views/header.htm");
         //include("Views/customerDashboard.htm");
-        include("Views/customerProfile.htm");
+        //include("Views/customerProfile.htm");
+        include("Views/customer.htm");
         include("Views/footer.htm");
     ?>
     <!-- Optional JavaScript -->
