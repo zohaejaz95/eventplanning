@@ -15,6 +15,7 @@
 </head>
   <body>
       <?php
+      //https://github.com/zohaejaz95/eventplanning
         include("Views/header.htm");
         include("Views/home.htm");
         include("Views/footer.htm");
