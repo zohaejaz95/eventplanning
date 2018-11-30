@@ -18,7 +18,7 @@
   font-size: 20px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .sidenav a:hover {
@@ -31,6 +31,14 @@
   right: 25px;
   font-size: 30px;
   margin-left: 50px;
+}
+
+.btn-sidebar{
+  background-color: #111; 
+  font-size: 20px;
+  color: #818181;
+  border-color: #111;
+  border-style: none;
 }
 
 #main {
