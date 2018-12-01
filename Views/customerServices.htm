@@ -67,24 +67,44 @@
 
                         </div>
                         <div class="col-md-8">
-                            <h6>Guest List Manager/Add Guest</h6>
+                            <h6>Services</h6>
                             <hr>
                             <br>
                             <form>
                                 <div class="form-group row">
-                                    <label for="First Name" class="col-sm-4 col-form-label">First Name</label>
+                                    <label for="Events" class="col-sm-4 col-form-label">Select Event</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" name="firstName" id="firstName"
-                                            required="required" placeholder="Enter First Name">
+                                            <select class="custom-select" name="event" id="event">
+                                                <option selected>Select one</option>
+                                                <option value="">Two</option>
+                                                <option value="">Three</option>
+                                                <option value="">Four</option>
+                                            </select>
                                     </div>
 
                                 </div>
                                 <div class="form-group row">
-
-                                    <label for="Last Name" class="col-sm-4 col-form-label">Last Name</label>
+                                    <label for="Service Name" class="col-sm-4 col-form-label">Service Name</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" name="lastName" id="lastName" required="required"
-                                            placeholder="Enter Last Name">
+                                        <input type="text" class="form-control" name="serviceName" id="serviceName"
+                                            required="required" placeholder="Enter Service Name">
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                        <label for="Cost" class="col-sm-4 col-form-label">Cost</label>
+                                        <div class="col-sm-8">
+                                            <input type="number" class="form-control" name="cost" id="cost"
+                                                required="required" placeholder="Enter Cost">
+                                        </div>
+    
+                                    </div>
+                                <div class="form-group row">
+
+                                    <label for="Vendor Name" class="col-sm-4 col-form-label">Vendor Name</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" name="vendorName" id="vendorName" required="required"
+                                            placeholder="Enter Vendor Name">
                                     </div>
 
                                 </div>
@@ -110,9 +130,16 @@
 
                                     <label for="Address" class="col-sm-4 col-form-label">Address</label>
                                     <div class="col-sm-8">
-                                        <textarea name="address" id="address" cols="64" rows="3" placeholder="Enter Address"></textarea>
+                                        <textarea name="address" id="address" cols="40" rows="3" placeholder="Enter Address"></textarea>
                                     </div>
                                 </div>
+                                <div class="form-group row">
+
+                                        <label for="Description" class="col-sm-4 col-form-label">Description</label>
+                                        <div class="col-sm-8">
+                                            <textarea name="description" id="desc" cols="40" rows="3" placeholder="Enter Description"></textarea>
+                                        </div>
+                                    </div>
                                 <div class="form-group row">
                                     <div class="offset-sm-4 col-sm-10">
                                         <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Add Guest</button>

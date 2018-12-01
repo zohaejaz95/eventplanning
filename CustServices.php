@@ -18,9 +18,7 @@
   <body>
     <?php
         include("Views/header.htm");
-        //include("Views/customerDashboard.htm");
-        //include("Views/customerProfile.htm");
-        include("Views/customerAddGuest.htm");
+        include("Views/customerServices.htm");
         include("Views/footer.htm");
     ?>
     <!-- Optional JavaScript -->
