@@ -7,10 +7,12 @@
                     <li><a href="#">Profile</a></li>
                     <li>
                         <a href="#" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar">Events</a>
-                        <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="collapse navbar-collapse row" id="myNavbar">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">My Events</a></li>
-                                <li><a href="#">Add Event</a></li>
+                                <div class="offset-sm-3 col-sm-12">
+                                    <li><a href="#">My Events</a></li>
+                                    <li><a href="#">Add Event</a></li>
+                                </div>
                             </ul>
                         </div>
                     </li>
@@ -19,10 +21,12 @@
                     <li><a href="" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar2">Guest
                             List
                             Manager</a>
-                        <div class="collapse navbar-collapse" id="myNavbar2">
+                        <div class="row collapse navbar-collapse" id="myNavbar2">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">My Guests</a></li>
-                                <li><a href="#">Add Guest</a></li>
+                                <div class="offset-sm-3 col-sm-12">
+                                    <li><a href="#">My Guests</a></li>
+                                    <li><a href="#">Add Guest</a></li>
+                                </div>
                             </ul>
                         </div>
                     </li>
@@ -132,8 +136,8 @@
 
 <script>
     function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "175px";
+        document.getElementById("mySidenav").style.width = "300px";
+        document.getElementById("main").style.marginLeft = "200px";
     }
 
     function closeNav() {
