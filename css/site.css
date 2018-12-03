@@ -2,4 +2,16 @@
     height: 70vh;
     width: 100%;
 }
+.details{
+    text-decoration: underline;
+    font-style: italic;
+}
+.e_icon{
+    height: 150px;
+    width: 150px;
+}
+.desc{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 

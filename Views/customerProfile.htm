@@ -1,31 +1,101 @@
-<div class="row">
+<div class="row mar">
     <div class="col-xl-1">
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Profile</a>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Events
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">My Events</a></li>
-                    <li><a href="#">Add Event</a></li>
+            <nav class="navbar navbar-inverse">
+                <ul>
+                    <li><a href="customerprofile.php">Profile</a></li>
+                    <li>
+                        <a href="#" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar">Events</a>
+                        <div class="collapse navbar-collapse row" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <div class="offset-sm-3 col-sm-12">
+                                    <li><a href="custevents.php">My Events</a></li>
+                                    <li><a href="custcreatevent.php">Add Event</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                   <!-- <li><a href="#">Services</a>
+                    </li>-->
+
+                    <li><a href="" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar2">Guest
+                            List
+                            Manager</a>
+                        <div class="row collapse navbar-collapse" id="myNavbar2">
+                            <ul class="nav navbar-nav">
+                                <div class="offset-sm-3 col-sm-12">
+                                    <li><a href="CustViewGuest.php">My Guests</a></li>
+                                    <li><a href="CustAddGuest.php">Add Guest</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                   <!-- 
+                    <li><a href="#">Card Customization</a></li>
+                    <li><a href="#">Messages</a></li>
+                    -->
                 </ul>
-            </div>
-            <a href="#">Services</a>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Guest List Manager
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                </ul>
-            </div>
+            </nav>
         </div>
     </div>
     <div class="col-xl-10">
-        <div id="main">
+        <div id="main" class="mar">
             <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Dashboard</span>
+            <br>
+            <br>
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/avatar.jpg" class="img-fluid rounded-circle" alt="No Image">
+                </div>
+                <div class="col-sm-4">
+                    <br>
+                    <br>
+                    <h3>Customer Name</h3>
+                    <br>
+                    <h4>UserName</h4>
+                </div>
+                <div class="col-sm-2">
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-7">
+                <h5>Customer Profile</h5>
+                <hr>
+            </div>
+            <div class="col-md-2"></div>
+            
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <h4 >Name:</h4>
+                    <h4>Email:</h4>
+                    <h4>Contact No:</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="details">John Doe</h4>
+                    <h4 class="details">John Doe@gmail.com</h4>
+                    <h4 class="details">0900-7860-1</h4>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col md-12">
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+        </div>
 
         </div>
     </div>

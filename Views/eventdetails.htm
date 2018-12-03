@@ -1,0 +1,204 @@
+<div class="row mar">
+        <div class="col-xl-1">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <nav class="navbar navbar-inverse">
+                        <ul>
+                                <li><a href="customerprofile.php">Profile</a></li>
+                                <li>
+                                    <a href="#" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar">Events</a>
+                                    <div class="collapse navbar-collapse row" id="myNavbar">
+                                        <ul class="nav navbar-nav">
+                                            <div class="offset-sm-3 col-sm-12">
+                                                <li><a href="custevents.php">My Events</a></li>
+                                                <li><a href="custcreatevent.php">Add Event</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+                               <!-- <li><a href="#">Services</a>
+                                </li>-->
+            
+                                <li><a href="" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar2">Guest
+                                        List
+                                        Manager</a>
+                                    <div class="row collapse navbar-collapse" id="myNavbar2">
+                                        <ul class="nav navbar-nav">
+                                            <div class="offset-sm-3 col-sm-12">
+                                                <li><a href="CustViewGuest.php">My Guests</a></li>
+                                                <li><a href="CustAddGuest.php">Add Guest</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+                               <!-- 
+                                <li><a href="#">Card Customization</a></li>
+                                <li><a href="#">Messages</a></li>
+                                -->
+                            </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="col-xl-10">
+            <div id="main" class="mar">
+                    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Dashboard</span>
+                    <br>
+                    <br>
+                <div class="container">
+                    <div class="row">
+                            <div class="col-sm-2">
+    
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="images/avatar.jpg" class="img-fluid rounded-circle" alt="No Image">
+                                </div>
+                                <div class="col-sm-4">
+                                    <br>
+                                    <br>
+                                    <h3>Customer Name</h3>
+                                    <br>
+                                    <h4>UserName</h4>
+                                </div>
+                                <div class="col-sm-2">
+        
+                                </div>
+                            </div>
+                            <br>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <h6>Event Details</h6>
+                            <hr>
+                            <br>
+                            <div class="card bg-link">
+                              <img class="card-img-top" src="holder.js/100px180/" alt="">
+                              <div class="card-body">
+                                <h4 class="card-title">Details</h4>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <h6>Name:</h6>
+                                    </div>
+                                    <div class="col-md-4"><h6 class="details">Ali's Birthday</h6></div>
+                                    <div class="col-md-2">
+                                         <h6>Category:</h6>   
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h6 class="details">Birthday</h6>
+                                    </div>    
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-2">
+                                            <h6>Date</h6>
+                                        </div>
+                                        <div class="col-md-4"><h6 class="details">10-10-10</h6></div>
+                                        <div class="col-md-2">
+                                            <h6>Time:</h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6 class="details">1800 hrs</h6>
+                                        </div>    
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-md-2">
+                                                <h6>Status:</h6>
+                                            </div>
+                                            <div class="col-md-4"><h6 class="details">Active</h6></div>
+                                            <div class="col-md-2">
+                                                <h6>Type:</h6>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h6 class="details">Private</h6>
+                                            </div>    
+                                        </div>
+                                    <div class="row">
+                                        <h6 class="desc">Description</h6>
+                                    </div>
+                                    <div class="row">
+                                        <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore accusamus voluptatum sequi nisi fugiat, ut amet qui eos quo doloribus soluta aliquid tenetur facere rem, nulla obcaecati reiciendis ipsam nihil.</p>
+                                    </div>
+
+                              </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="card bg-link">
+                                    <img class="card-img-top" src="holder.js/100px180/" alt="">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                    <h4 class="card-title">Services</h4>        
+                                            </div>
+                                            <div class="col-md-2">
+                                                    <a href="CustServices.php"><button type="submit" class="btn btn-outline-success my-2 my-sm-0">Add Service</button>
+                                                    </a>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-4"><img src="images\avatar.jpg" alt="" class="e_icon"> </div>
+                                            <div class="col-md-8">
+                                                <div class="row">
+                                                    <div class="col-md-6"><h6>Vendor Name</h6></div>
+                                                    <div class="col-md-6"><h6>Service Name</h6></div>
+                                                    
+                                                </div>
+                                                <div class="row">
+                                                    <h6 class="desc">Amount: 000 PKR</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                                <div class="col-md-4"><img src="images\avatar.jpg" alt="" class="e_icon"></div>
+                                                <div class="col-md-8">
+                                                    <div class="row">
+                                                        <div class="col-md-6"><h6>Vendor Name</h6></div>
+                                                        <div class="col-md-6"><h6>Service Name</h6></div>
+                                                        
+                                                    </div>
+                                                    <div class="row">
+                                                        <h6 class="desc">Amount: 000 PKR</h6>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row"></div>
+                                                <div class="col-md-2"></div>
+                                                <div class="col-md-8">
+                                                    <div class="row">
+                                                        <div class="col-md-6">Required Budget</div>
+                                                        <div class="col-md-6">0000 PKR</div>
+                                                    </div>
+                                                    <div class="row">
+                                                            <div class="col-md-6">Total Amount</div>
+                                                            <div class="col-md-6">0000 PKR</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2"></div>
+                                    </div>
+                                  </div>
+                                  <br>
+                                  <br>
+                                                          </div>
+                        <div class="col-md-2"></div>                
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-xl-1">
+        
+            </div>
+        </div>
+        <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "300px";
+                    document.getElementById("main").style.marginLeft = "200px";
+                }
+            
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+        
