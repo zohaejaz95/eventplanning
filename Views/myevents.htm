@@ -1,0 +1,156 @@
+<div class="row mar">
+    <div class="col-xl-1">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav class="navbar navbar-inverse">
+                    <ul>
+                            <li><a href="customerprofile.php">Profile</a></li>
+                            <li>
+                                <a href="#" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar">Events</a>
+                                <div class="collapse navbar-collapse row" id="myNavbar">
+                                    <ul class="nav navbar-nav">
+                                        <div class="offset-sm-3 col-sm-12">
+                                            <li><a href="custevents.php">My Events</a></li>
+                                            <li><a href="custcreatevent.php">Add Event</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                           <!-- <li><a href="#">Services</a>
+                            </li>-->
+        
+                            <li><a href="" class="navbar-toggle btn-sidebar" data-toggle="collapse" data-target="#myNavbar2">Guest
+                                    List
+                                    Manager</a>
+                                <div class="row collapse navbar-collapse" id="myNavbar2">
+                                    <ul class="nav navbar-nav">
+                                        <div class="offset-sm-3 col-sm-12">
+                                            <li><a href="CustViewGuest.php">My Guests</a></li>
+                                            <li><a href="CustAddGuest.php">Add Guest</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                           <!-- 
+                            <li><a href="#">Card Customization</a></li>
+                            <li><a href="#">Messages</a></li>
+                            -->
+                        </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="col-xl-10">
+        <div id="main" class="mar">
+                <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Dashboard</span>
+                <br>
+                <br>
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-2">
+
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/avatar.jpg" class="img-fluid rounded-circle" alt="No Image">
+                            </div>
+                            <div class="col-sm-4">
+                                <br>
+                                <br>
+                                <h3>Customer Name</h3>
+                                <br>
+                                <h4>UserName</h4>
+                            </div>
+                            <div class="col-sm-2">
+    
+                            </div>
+                        </div>
+                        <br>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <h6>My Events</h6>
+                        <hr>
+                        <br>
+                        <div class="card bg-link">
+                          <img class="card-img-top" src="holder.js/100px180/" alt="">
+                          <div class="card-body">
+                            <h4 class="card-title">Birthday</h4>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images\avatar.jpg" class="rounded-circle e_icon" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Event name</h6>
+                                    <p>Description</p>
+                                </div>
+                                <div class="col-md-3">
+                                        <a href="custeventdetails.php"><button type="submit" class="btn btn-outline-success my-2 my-sm-0">View Details</button>
+                                        </a>
+                                    </div>
+                            </div>
+                          </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="card bg-link">
+                                <img class="card-img-top" src="holder.js/100px180/" alt="">
+                                <div class="card-body">
+                                  <h4 class="card-title">Party</h4>
+                                  <div class="row">
+                                      <div class="col-md-3">
+                                          <img src="images\avatar.jpg" class="rounded-circle e_icon" alt="">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <h6>Event name</h6>
+                                          <p>Description</p>
+                                      </div>
+                                      <div class="col-md-3">
+                                            <a href="custeventdetails.php"><button type="submit" class="btn btn-outline-success my-2 my-sm-0">View Details</button>
+                                            </a>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <br>
+                              <br>
+                              <div class="card bg-link">
+                                    <img class="card-img-top" src="holder.js/100px180/" alt="">
+                                    <div class="card-body">
+                                      <h4 class="card-title">Wedding</h4>
+                                      <div class="row">
+                                          <div class="col-md-3">
+                                              <img src="images\avatar.jpg" class="rounded-circle e_icon" alt="">
+                                          </div>
+                                          <div class="col-md-6">
+                                              <h6>Event name</h6>
+                                              <p>Description</p>
+                                          </div>
+                                          <div class="col-md-3">
+                                            <a href="custeventdetails.php"><button type="submit" class="btn btn-outline-success my-2 my-sm-0">View Details</button>
+                                            </a>      
+                                            </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br>
+                    </div>
+                    <div class="col-md-2"></div>                
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-xl-1">
+    
+        </div>
+    </div>
+    <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+                document.getElementById("main").style.marginLeft = "200px";
+            }
+        
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
